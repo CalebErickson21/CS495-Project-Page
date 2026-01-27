@@ -8,6 +8,8 @@ This document explains how to deploy the **Strata OS** project page to productio
 
 We use [Vercel](https://vercel.com) for hosting our frontend application. Vercel provides seamless deployment with built-in CI/CD integration through GitHub Actions, making it easy to automatically deploy updates whenever code is pushed to the repository.
 
+**Production Link:** [https://cs-495-project-page.vercel.app/](https://cs-495-project-page.vercel.app/)
+
 ## Key Features
 
 - **Automatic Deployments**: Vercel automatically detects and deploys changes when you push to GitHub
