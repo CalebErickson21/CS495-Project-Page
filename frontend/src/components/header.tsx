@@ -9,12 +9,15 @@ const Header = () => {
         <header className="relative flex flex-row justify-center items-center p-2 bg-light-background dark:bg-dark-background">
 
             {/* Left - Logo */}
+            {/**
+             
             <div
             className="absolute left-0 p-4
             text-xl font-semibold
             text-light-text-secondary dark:text-dark-text-secondary">
                 Strata
             </div>
+             */}
 
             {/* Center - Collabable Navigation Tabs */}
             <nav className="flex flex-row gap-8">
@@ -33,7 +36,7 @@ const Header = () => {
                 </NavLink>
 
                 <NavLink
-                    to="/construction"
+                    to="/overview"
                     end
                     className={({ isActive }) => 
                         `text-xl underline-center ${
@@ -44,6 +47,20 @@ const Header = () => {
                     }
                     aria-current="page">
                     Overview
+                </NavLink>
+
+                <NavLink
+                    to="/deliverables"
+                    end
+                    className={({ isActive }) => 
+                        `text-xl underline-center ${
+                            isActive
+                            ? 'active font-extrabold text-light-text-primary dark:text-dark-text-primary'
+                            : 'font-semibold hover:font-bold text-light-text-secondary dark:text-dark-text-secondary'
+                        }`
+                    }
+                    aria-current="page">
+                    Deliverables
                 </NavLink>
 
                 <NavLink
