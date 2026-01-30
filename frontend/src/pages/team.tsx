@@ -6,6 +6,8 @@ import TeamCard from '@/components/teamCard'
 
 // Import images
 import CalebHeadshot from '@/assets/calebHeadshot.jpg'
+import DonaldHeadshot from '@/assets/donaldHeadshot.png'
+import DanielHeadshot from '@/assets/danielHeadshot.png'
 
 // Team Page
 const Team = () => {
@@ -27,41 +29,41 @@ const Team = () => {
         {
             id: 2,
             image: "",
-            name: "TODO",
-            title: "TODO",
-            description: "TODO",
+            name: "Brett Waldvogel",
+            title: "Senior CS Major",
+            description: "Brett Waldvogel is a senior computer science major at the University of Alabama working on the Strata OS CS 495 project.",
             portfolio: "",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/brett-waldvogel/",
         },
-        // Joshua
+        // Josh
         {
             id: 3,
             image: "",
-            name: "TODO",
-            title: "TODO",
-            description: "TODO",
+            name: "Josh Keane",
+            title: "Senior CS Major",
+            description: "Josh Keane is a senior computer science major at the University of Alabama working on the Strata OS CS 495 project.",
             portfolio: "",
             linkedin: "",
         },
         // Donald
         {
             id: 4,
-            image: "",
-            name: "TODO",
-            title: "TODO",
-            description: "TODO",
+            image: DonaldHeadshot,
+            name: "Donald Chanthirath",
+            title: "Senior CS Major",
+            description: "Donald Chanthirath is a senior computer science major at the University of Alabama working on the Strata OS CS 495 project.",
             portfolio: "",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/dchanthirath/",
         },
         // Daniel
         {
             id: 5,
-            image: "",
-            name: "TODO",
-            title: "TODO",
-            description: "TODO",
+            image: DanielHeadshot,
+            name: "Daniel Igbokwe",
+            title: "Senior CS Major",
+            description: "Daniel Igbokwe is a senior computer science major at the University of Alabama working on the Strata OS CS 495 project.",
             portfolio: "",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/danieliigbokwe/",
         },
     ]
 
