@@ -2,7 +2,7 @@
 import { Outlet } from "react-router-dom";
 
 // Import components
-import ThemeButton from "../components/themeButton";
+import ThemeButton from "@/components/themeButton";
 
 // Import components
 import Header from "@/components/header";
@@ -14,7 +14,7 @@ import Footer from "@/components/footer";
 const Layout = () => {
 
     return (
-        <div id='layout-container' className='flex flex-col h-screen w-screen m-0 p-0'>
+        <div id='layout-container' className='relative flex flex-col min-h-screen w-full m-0 p-0'>
             
             {/* Header */}
             <div
@@ -50,17 +50,13 @@ const Layout = () => {
                 dark:from-dark-background dark:via-dark-background dark:to-neutral
                 transition duration-300 ease-in-out
                 ">
-                    <div
-                    className="pointer-events-none absolute inset-0 opacity-[0.015] mix-blend-overlay
-                        bg-[url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22><filter id=%22n%22><feTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%223%22/></filter><rect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/></svg>')]">
-                    </div>
                 </div>
             </div>
 
             {/* Outlet */}
             <main
             id='outlet-container'
-            className="flex-1
+            className="flex flex-1 min-h-0
             bg-transparent
             transition duration-300 ease-in-out
             z-10">
