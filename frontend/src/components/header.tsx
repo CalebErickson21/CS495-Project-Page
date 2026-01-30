@@ -6,7 +6,7 @@ const Header = () => {
 
 
     return (
-        <header className="relative flex flex-row justify-center items-center p-2">
+        <header className="relative flex flex-row justify-center items-center p-2 bg-light-background dark:bg-dark-background">
 
             {/* Left - Logo */}
             <div
@@ -61,7 +61,7 @@ const Header = () => {
                 </NavLink>
 
                 <NavLink
-                    to="/construction"
+                    to="/team"
                     end
                     className={({ isActive }) => 
                         `text-xl underline-center ${

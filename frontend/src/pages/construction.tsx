@@ -1,17 +1,13 @@
 // Import dependencies
 
+// Team Page
+const Team = () => {
 
-const Construction = () => {
     return (
-        <div className="
-        w-full h-full flex flex-col items-center justify-center
-        px-4 py-2
-        ">
-            <h3 className="text-lg font-bold text-light-text-secondary dark:text-dark-text-secondary transition duration-300 ease-in-out">
-                UNDER CONSTRUCTION PAGE
-            </h3>
+        <div className="flex flex-1 justify-center items-center">
+            CONSTRUCTION PAGE
         </div>
     )
 }
 
-export default Construction;
+export default Team;

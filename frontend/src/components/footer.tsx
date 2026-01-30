@@ -5,7 +5,7 @@ const Header = () => {
 
 
     return (
-        <footer className="flex flex-row items-center justify-between text-center">
+        <footer className="flex flex-row items-center justify-between text-center bg-light-background dark:bg-dark-background p-2">
             <div className="flex flex-1 justify-center">
                 <h1 className="text-xl font-semibold text-light-text-secondary dark:text-dark-text-secondary">
                 Strata OS
