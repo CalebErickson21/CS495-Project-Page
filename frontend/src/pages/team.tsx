@@ -8,6 +8,7 @@ import TeamCard from '@/components/teamCard'
 import CalebHeadshot from '@/assets/calebHeadshot.jpg'
 import DonaldHeadshot from '@/assets/donaldHeadshot.png'
 import DanielHeadshot from '@/assets/danielHeadshot.png'
+import JoshuaHeadshot from '@/assets/joshuaHeadshot.jpeg'
 
 // Team Page
 const Team = () => {
@@ -38,12 +39,12 @@ const Team = () => {
         // Josh
         {
             id: 3,
-            image: "",
-            name: "Josh Keane",
+            image: JoshuaHeadshot,
+            name: "Joshua Keane",
             title: "Senior CS Major",
-            description: "Josh Keane is a senior computer science major at the University of Alabama working on the Strata OS CS 495 project.",
+            description: "Joshua Keane is a senior computer science major at the University of Alabama working on the Strata OS CS 495 project.",
             portfolio: "",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/josh-keane-2b4693238/",
         },
         // Donald
         {
