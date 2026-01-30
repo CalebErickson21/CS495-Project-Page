@@ -1,5 +1,10 @@
 /// <reference types="vite/client" />
 
+declare module '*.pptx' {
+  const src: string
+  export default src
+}
+
 // Import svgs
 declare module "*.svg?react" {
   import * as React from "react";
