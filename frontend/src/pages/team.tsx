@@ -29,10 +29,10 @@ const Team = () => {
         // Brett
         {
             id: 2,
-            image: "",
+            image: "", //will update
             name: "Brett Waldvogel",
             title: "Senior CS Major",
-            description: "Brett Waldvogel is a senior computer science major at the University of Alabama working on the Strata OS CS 495 project.",
+            description: "Brett Waldvogel is a senior computer science major at the University of Alabama working on the Strata OS CS 495 project. He is currently applying to law schools, where he plans to use his Computer Science background in a career in Intellectual Property Law.",
             portfolio: "",
             linkedin: "https://www.linkedin.com/in/brett-waldvogel/",
         },
