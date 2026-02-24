@@ -5,6 +5,16 @@ declare module '*.pptx' {
   export default src
 }
 
+declare module '*.docx' {
+  const src: string
+  export default src
+}
+
+declare module '*.xlsx' {
+  const src: string
+  export default src
+}
+
 // Import svgs
 declare module "*.svg?react" {
   import * as React from "react";
