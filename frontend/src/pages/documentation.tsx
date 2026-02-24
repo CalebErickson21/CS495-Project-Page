@@ -22,7 +22,10 @@ const Documentation = () => {
                         Overview
                     </h2>
                     <p className="text-light-text-secondary dark:text-dark-text-primary">
-                        Project documentation and guides will be available here.
+                        All current project documentation is available in the respective project GitHub repositories.
+                    </p>
+                    <p className="text-light-text-secondary dark:text-dark-text-primary mt-2">
+                        We are actively working on creating comprehensive documentation to display here ahead of Sprint 2.
                     </p>
                 </section>
             </div>

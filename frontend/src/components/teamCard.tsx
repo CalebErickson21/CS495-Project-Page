@@ -36,10 +36,10 @@ const TeamCard = ({ id, image, name, title, description, portfolio, linkedin, ex
         onMouseLeave={() => setHover(false)}
         >
             {/* Left Image */}
-            <div className="aspect-square items-center justify-center">
+            <div className="flex items-center justify-center flex-shrink-0">
                 <img
                 src={image === "" ? BlankUser : image}
-                className="max-h-[12dvh] w-full rounded-full object-cover"
+                className="w-24 h-24 rounded-full object-cover"
                 alt={`Profile picture of ${name}`}
                 >
                 </img>
