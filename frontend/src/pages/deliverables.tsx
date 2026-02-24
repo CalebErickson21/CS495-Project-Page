@@ -66,7 +66,7 @@ const Deliverables = () => {
                                             download="Strata-OS-Preliminary-Presentation.pptx"
                                             className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
                                         >
-                                            Initial Project Presentation (`initialPresentation.pptx`)
+                                            Initial Project Presentation
                                         </a>
                                     </li>
                                     <li>
@@ -75,7 +75,7 @@ const Deliverables = () => {
                                             download="Strata-OS-Project-Backlog.xlsx"
                                             className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
                                         >
-                                            Overall Project Backlog (`projectBacklog.xlsx`)
+                                            Overall Project Backlog
                                         </a>
                                     </li>
                                 </ul>
@@ -125,7 +125,7 @@ const Deliverables = () => {
                                             download="Strata-OS-Sprint1-Presentation.pptx"
                                             className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
                                         >
-                                            Sprint 1 Presentation (`sprint1.pptx`)
+                                            Sprint 1 Presentation
                                         </a>
                                     </li>
                                     <li>
@@ -134,7 +134,7 @@ const Deliverables = () => {
                                             download="Strata-OS-Sprint1-Backlog.docx"
                                             className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
                                         >
-                                            Sprint 1 Backlog (`sprint1Backlog.docx`)
+                                            Sprint 1 Backlog
                                         </a>
                                     </li>
                                     <li>
