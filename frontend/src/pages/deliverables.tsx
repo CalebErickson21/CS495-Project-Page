@@ -9,7 +9,7 @@ import sprint2Slides from '@/assets/sprint2/sprint2.pptx'
 import sprint2Backlog from '@/assets/sprint2/sprint2Backlog.pdf'
 import sprint2Planning from '@/assets/sprint2/sprint2Planning.pdf'
 import sprint3Backlog from '@/assets/sprint3/sprint3Backlog.docx'
-import sprint3Planning from '@/assets/sprint3/Sprint3Planning.docx'
+import sprint3Planning from '@/assets/sprint3/sprint3Planning.docx'
 
 const Deliverables = () => {
 
