@@ -1,15 +1,22 @@
+// Import dependencies
 import { useState } from "react";
+// Overall deliverables
 import initialPresentation from '@/assets/initialPresentation.pptx'
 import projectBacklog from '@/assets/projectBacklog.pdf'
+import projectVideo from '@/assets/projectVideo.webm'
+// Sprint 1 deliverables
 import sprint1Slides from '@/assets/sprint1/sprint1.pptx'
 import sprint1Backlog from '@/assets/sprint1/sprint1Backlog.docx'
 import sprint1Planning from '@/assets/sprint1/sprint1Planning.docx'
 import sprint1Retro from '@/assets/sprint1/sprint1Retrospective.docx'
+// Sprint 2 deliverables
 import sprint2Slides from '@/assets/sprint2/sprint2.pptx'
 import sprint2Backlog from '@/assets/sprint2/sprint2Backlog.pdf'
 import sprint2Planning from '@/assets/sprint2/sprint2Planning.pdf'
-import sprint3Backlog from '@/assets/sprint3/sprint3Backlog.docx'
-import sprint3Planning from '@/assets/sprint3/sprint3Planning.docx'
+// Sprint 3 deliverables
+import sprint3Backlog from '@/assets/sprint3/sprint3Backlog.pdf'
+import sprint3Planning from '@/assets/sprint3/sprint3Planning.pdf'
+import sprint3Slides from '@/assets/sprint3/sprint3.pptx'
 
 const Deliverables = () => {
 
@@ -81,6 +88,15 @@ const Deliverables = () => {
                                             className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
                                         >
                                             Overall Project Backlog
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href={projectVideo}
+                                            download="Strata-OS-Sprint3-Project-Video.webm"
+                                            className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
+                                        >
+                                            Project Video
                                         </a>
                                     </li>
                                 </ul>
@@ -257,6 +273,15 @@ const Deliverables = () => {
                                     Sprint 3 backlog and planning documents.
                                 </p>
                                 <ul className="list-disc list-inside space-y-1 text-light-text-secondary dark:text-dark-text-primary">
+                                    <li>
+                                        <a
+                                            href={sprint3Slides}
+                                            download="Strata-OS-Sprint3-Presentation.pptx"
+                                            className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
+                                        >
+                                            Sprint 3 Presentation
+                                        </a>
+                                    </li>
                                     <li>
                                         <a
                                             href={sprint3Backlog}
