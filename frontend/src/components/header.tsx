@@ -64,7 +64,7 @@ const Header = () => {
                 </NavLink>
 
                 <NavLink
-                    to="/construction"
+                    to="/documentation"
                     end
                     className={({ isActive }) => 
                         `text-xl underline-center ${

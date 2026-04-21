@@ -8,6 +8,7 @@ import Overview from "@/pages/overview";
 import Deliverables from "@/pages/deliverables"
 import Team from "@/pages/team"
 import Construction from "@/pages/construction";
+import Documentation from "@/pages/documentation";
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
             {
                 path: "/construction",
                 element: <Construction />,
+            },
+            {
+                path: "/documentation",
+                element: <Documentation />,
             },
             {
                 path: "/overview",

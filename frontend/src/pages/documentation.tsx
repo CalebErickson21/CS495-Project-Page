@@ -16,16 +16,29 @@ const Documentation = () => {
             </div>
 
             {/* Right / bottom - doc content */}
-            <div className="flex flex-1 flex-col p-4 gap-6 max-w-2xl">
-                <section>
+            <div className="flex flex-1 flex-col justify-center items-center p-4 gap-6">
+                <section className="w-full max-w-2xl text-center">
                     <h2 className="text-2xl font-bold text-light-accentText dark:text-dark-accentText mb-2">
                         Overview
                     </h2>
-                    <p className="text-light-text-secondary dark:text-dark-text-primary">
-                        All current project documentation is available in the respective project GitHub repositories.
+                    <p className="p-2 text-xl font-semibold text-light-text-primary dark:text-dark-text-primary">
+                        Documentation includes sensitive information about deployment, VM configurations, and other details
+                        that could lead to vulnerability risks.
                     </p>
-                    <p className="text-light-text-secondary dark:text-dark-text-primary mt-2">
-                        We are actively working on creating comprehensive documentation to display here ahead of Sprint 2.
+                    <p className="p-2 text-xl font-semibold text-light-text-primary dark:text-dark-text-primary">
+                        For access, please contact a group member to get access to the following GitHub link:{" "}
+                        <a
+                            href="https://github.com/doncha-poj/Strata-OS"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
+                        >
+                            https://github.com/doncha-poj/Strata-OS
+                        </a>
+                    </p>
+                    <p className="p-2 text-xl font-semibold text-light-text-primary dark:text-dark-text-primary">
+                        Within that repository, all documentation can be found in the project-root `README.md` and the
+                        `documentation/` directory.
                     </p>
                 </section>
             </div>
