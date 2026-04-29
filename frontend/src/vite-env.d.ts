@@ -15,6 +15,11 @@ declare module '*.xlsx' {
   export default src
 }
 
+declare module '*.md?url' {
+  const src: string
+  export default src
+}
+
 // Import svgs
 declare module "*.svg?react" {
   import * as React from "react";

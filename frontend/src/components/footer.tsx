@@ -1,15 +1,21 @@
 // Import dependencies
+import { STRATA_PRODUCTION_LOGIN_URL } from "@/utils/productionUrls";
 
-// Header component
-const Header = () => {
+// Footer component
+const Footer = () => {
 
 
     return (
         <footer className="flex flex-row items-center justify-between text-center bg-light-background dark:bg-dark-background p-2">
             <div className="flex flex-1 justify-center">
-                <h1 className="text-xl font-semibold text-light-text-secondary dark:text-dark-text-secondary">
-                Strata OS
-                </h1>
+                <a
+                    href={STRATA_PRODUCTION_LOGIN_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl font-semibold text-light-text-secondary dark:text-dark-text-secondary hover:text-light-accentText dark:hover:text-dark-accentText hover:underline transition-colors"
+                >
+                    Strata OS
+                </a>
             </div>
 
             <div className="flex flex-1 justify-center">
@@ -29,5 +35,5 @@ const Header = () => {
 
 };
 
-// Export header for imports
-export default Header;
+// Export footer for imports
+export default Footer;

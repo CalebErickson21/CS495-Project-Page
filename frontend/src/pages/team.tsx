@@ -3,6 +3,7 @@ import { useState } from "react";
 
 // Import components
 import TeamCard from '@/components/teamCard'
+import { STRATA_PRODUCTION_LOGIN_URL } from "@/utils/productionUrls";
 
 // Import images
 import CalebHeadshot from '@/assets/calebHeadshot.jpg'
@@ -81,7 +82,16 @@ const Team = () => {
                     Meet Our Team
                 </h1>
                 <h3 className="text-2xl font-bold text-light-text-secondary dark:text-dark-text-secondary p-2">
-                Learn more about the Strata OS team and feel free to reach out for feedback,
+                Learn more about the{" "}
+                <a
+                    href={STRATA_PRODUCTION_LOGIN_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-light-accentText dark:hover:text-dark-accentText"
+                >
+                    Strata OS
+                </a>{" "}
+                team and feel free to reach out for feedback,
                 improvements, or collaboration.
                 </h3>
             </div>

@@ -17,6 +17,7 @@ import sprint2Planning from '@/assets/sprint2/sprint2Planning.pdf'
 import sprint3Backlog from '@/assets/sprint3/sprint3Backlog.pdf'
 import sprint3Planning from '@/assets/sprint3/sprint3Planning.pdf'
 import sprint3Slides from '@/assets/sprint3/sprint3.pptx'
+import { STRATA_PRODUCTION_LOGIN_URL } from "@/utils/productionUrls";
 
 const Deliverables = () => {
 
@@ -28,7 +29,14 @@ const Deliverables = () => {
             {/* Left / top */}
             <div className="flex flex-1 flex-col justify-center items-center text-center">
                 <h1 className="p-2 text-6xl font-bold text-light-accentText dark:text-dark-accentText">
-                    Strata OS
+                    <a
+                        href={STRATA_PRODUCTION_LOGIN_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-light-accentText/50 dark:decoration-dark-accentText/50 hover:decoration-light-accentText dark:hover:decoration-dark-accentText transition-colors"
+                    >
+                        Strata OS
+                    </a>
                 </h1>
                 <h3 className="p-2 text-4xl font-semibold text-light-text-secondary dark:text-dark-text-primary">
                     A University of Alabama CS495 Project
